@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width,initial-scale=1.0">
+        <link rel="icon" type="image/png" href="images/moojinlogo.png">
+        <title>Moojin</title>
+        <link rel="stylesheet" href="style.css">
+    </head>
+    <body>
+        <header>
+            <a href="#intro" class="logo">
+                <img src="images/moojinlogo.png" alt="Moojin Logo" height="40">
+                <span class="logo-text">Moojin<br><span class="korean">주식회사 무진 회사소개서</span></span>
+            </a>
+            <nav class="navbar">
+                <a href="#vision and Mission">Vision</a>
+                <a href="#services">Services</a>
+                <a href="#contact">Contact</a>
+            </nav>
+         </header>
+
+        <section id="intro" class="i">
+            <div class="i-content">
+                <h1>Moojin</h1>
+            </div>
+        </section>
+
+        <section id="vision" class="v">
+            <div class="v-content">
+                <h1>Vision</h1>
+                <p>Moojin Co., Ltd. aims to support easier understanding of construction by providing open-source hardware-based construction
+                measurement devices, operational services, and research services, enabling people to access various devices anytime.
+                
+                <h1>Mission</h1>
+                <p>Moojin’s mission is to innovate accessible, affordable, and reliable construction technologies using open-source systems. 
+                We are committed to advancing infrastructure quality through smart sensing, data analytics, and practical engineering solutions 
+                that empower engineers and communities alike.          
+            </div>
+        </section> 
+
+        <section id="services" class="s">
+            <div class="s-content">
+                <h1>Services</h1>
+                <ul>
+                    <li>Pavement Materials</li>
+                    <li>Pavement Management System</li>
+                    <li>Internet-of-Things</li>
+                </ul>
+            </div>
+        <div class="s-toggle">
+            <!-- Toggle: Our System -->
+            <input type="checkbox" id="toggle-system" class="toggle-input">
+            <label for="toggle-system" class="button">Our System</label>
+            <div class="toggle-content">
+            <ul>
+                <li class="white-text">Pavement distress detection</li>
+                <li class="white-text">Pavement profiling</li>
+                <li class="white-text">Machine learning integration</li>
+                <li class="white-text">Drone-based mapping</li>
+                <li class="white-text">Subsurface surveys and profiling</li>
+                <li class="white-text">Low-cost Pavement Management System (PMS) device</li>
+            </ul>
+            </div>
+
+            <!-- Toggle: Our Results -->
+            <input type="checkbox" id="toggle-results" class="toggle-input">
+            <label for="toggle-results" class="button">Our Results</label>
+            <div class="toggle-content">
+            <p>Moojin system generates valuable outputs essential for pavement management, including distress maps, spatial distribution maps, and automated analytical reports. 
+                These outputs are derived from both surface-level and subsurface data, offering a multi-dimensional view of pavement conditions. 
+                The distress maps highlight specific areas of deterioration, such as cracks, ruts, patching or potholes, while spatial maps provide geo-referenced visualizations that support precise asset tracking. 
+                The automated reports synthesize raw data into actionable insights, streamlining decision-making for maintenance prioritization and budget allocation. 
+                This functionality makes Moojin's technology particularly effective for LCPMS, where localized and data-driven pavement condition monitoring is critical..</p>
+            </div>
+
+            <!-- Toggle: Why Us -->
+            <input type="checkbox" id="toggle-why" class="toggle-input">
+            <label for="toggle-why" class="button">Why Us</label>
+            <div class="toggle-content">
+            <p>Moojin offers a low-cost pavement evaluation technology in Korea, delivering a comprehensive detection system for infrastructure assessment. 
+                We provide advanced condition monitoring with both real-time and predictive capabilities, enabling timely and data-driven decision-making. 
+                The system is designed to be flexible, scalable and optimized, adapting to various field conditions while maintaining high accuracy. 
+                Overall, it serves as a more comprehensive pavement evaluation tool, pushing the boundaries of traditional monitoring methods.</p>
+            </div>
+        </div>
+        </section>
+
+        <section id="contact" class="home">
+            <div class="home-content">
+                <div class="home-content" style="background-color: maroon;">
+                <h1>Contact Us</h1>
+                <p>70 Beolmalro 70 Topyeongdong, Guri City, Gyeonggi Province, South Korea</p>
+                <input type="checkbox" id="toggle-map" class="toggle-map">
+                <label for="toggle-map" class="btn">Show Map</label>
+                <div class="map" id="map-container">
+                <iframe src="https://www.google.com/maps/embed?pb=!1m13!1m8!1m3!1d6323.450748249173!2d127.149473!3d37.585084!3m2!1i1024!2i768!4f13.1!3m2!1m1!2zMzfCsDM1JzA2LjMiTiAxMjfCsDA4JzU4LjEiRQ!5e0!3m2!1sen!2sph!4v1750317951126!5m2!1sen!2sph" width="1000" height="600" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+                </div>
+            </div>
+        </section>
+    </body>
+</html>

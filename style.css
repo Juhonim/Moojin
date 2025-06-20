@@ -130,8 +130,7 @@ nav a.active{
 }
 
 .v-content {
-    width: 100%;
-    max-width: 1000px;   
+    width: auto; 
     padding: 13rem;
     text-align: left;    
     margin-left: 0;    

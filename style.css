@@ -121,7 +121,7 @@ nav a.active{
 	background-position: top center;
 	position: relative;
 	z-index: 1;
-    height: 50vh;
+    height: auto;
 }
 
 .v{
@@ -160,13 +160,13 @@ nav a.active{
 	background-position: top center;
 	position: relative;
 	z-index: 1;
-    height: 30vh;
+    height: auto;
     transition: height 0.4s ease;
     overflow: hidden;
 }
 
 #services:has(input[type="checkbox"]:checked) {
-  height: 80vh;
+  height: auto;
 }
 
 .s{
